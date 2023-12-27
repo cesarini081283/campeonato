@@ -1,0 +1,39 @@
+/* Estilos para el formulario y su contenedor */
+#formulario-container {
+  width: 80%; /* Ancho del contenedor del formulario */
+  margin: 0 auto; /* Centrar el contenedor */
+  padding: 20px; /* Espaciado interno */
+  border: 1px solid #ccc; /* Borde alrededor del contenedor */
+  border-radius: 8px; /* Bordes redondeados */
+}
+
+/* Estilos para los elementos del formulario */
+#form-resultados label {
+  display: block; /* Mostrar etiquetas en bloques separados */
+  margin-bottom: 8px; /* Espaciado entre etiquetas y campos */
+}
+
+#form-resultados input[type="text"],
+#form-resultados input[type="number"],
+#form-resultados button {
+  width: 100%; /* Ancho completo para inputs y botón */
+  padding: 8px; /* Espaciado interno */
+  margin-bottom: 12px; /* Espaciado entre campos */
+  border: 1px solid #ccc; /* Borde alrededor de los campos */
+  border-radius: 4px; /* Bordes redondeados */
+}
+
+#form-resultados button {
+  background-color: #007bff; /* Color de fondo del botón */
+  color: white; /* Color del texto */
+  border: none; /* Eliminar borde del botón */
+  cursor: pointer; /* Cambiar cursor al pasar sobre el botón */
+}
+
+#form-resultados button:hover {
+  background-color: #0056b3; /* Cambio de color al pasar el mouse */
+}
+.sopa{
+    background-color: #2c917b;
+    color:#fff;
+}
